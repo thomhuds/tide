@@ -19,8 +19,8 @@ const _README: () = ();
 
 pub use http;
 
-mod app;
-mod router;
+pub mod app;
+pub mod router;
 
 pub use app::{App, Server};
 
